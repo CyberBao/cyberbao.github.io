@@ -1,69 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-
-    <title>Cyber Bao</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Website coded by Patricia Georgescu using the design from George Olaru on Behance" />
+    <meta name="description" content="Template website for a restaurant business. Created using the design of George Olaru on Behance." />
+    <meta name="keywords" content="mock-up, website, template, restaurant, design, web development" />
+    <title>La Rosa</title>
+    <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <div class="container">
-      <img src="./back.png" id="bg" alt="" />
-      <div class="img-overlay">
-        <button type="button" class="btn btn-dark btn-lg" style="width: 260px" onclick="window.location.href = 'Cyber-Bao-Catalogue.pdf';">Menu</button>
+    <header id="go_to_top">
+      <div class="gradient">
+        <div class="container">
+          <h2 id="logo"><a href="index.html"> Cyber Bao </a></h2>
+          <img id="open_menu" class="menu_icon show" src="./assets/img/menu.png" />
+          <img id="close_menu" class="menu_icon" src="./assets/img/x.png" />
+          <nav>
+            <a href="#go_to_top" class="menu_link active"> Αρχική </a>
+			<a href="#about" class="menu_link"> Η ιστορία μας </a>
+            <a href="#menu" class="menu_link"> Πληροφορίες </a>
+            <a href="./assets/Cyber-Bao-Catalogue.pdf"> Μενού </a>
+          </nav>
+        </div>
       </div>
-    </div>
-  </body>
-  <style>
-    #bg {
-      position: fixed;
-      top: 0;
-      left: 0;
-      background-size: cover;
-      /* Preserve aspet ratio */
-      width: 100%;
-      height: 100%;
-    }
-    .img-overlay {
-      position: absolute;
-      top: 93%;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      text-align: center;
-    }
+      <div class="welcome_container">
+        <h1 class="highlight">Καλώς Ορίσατε</h1>
+        <br />
+        <h1 class="brand">Cyber Bao</h1>
+        <span class="symbol"> &#10059; </span>
+        <h2>ΛΕΩΦ. ΣΟΦΟΚΛΗ ΒΕΝΙΖΕΛΟΥ 68, ΗΛΙΟΥΠΟΛΗ</h2>
+      </div>
+    </header>
 
-    .img-overlay:before {
-      content: " ";
-      display: block;
-      /* adjust 'height' to position overlay content vertically */
-      height: 2%;
-    }
-  </style>
+    <main>
+      <section id="about" class="breakpoint">
+        <div class="content">
+          <h1 class="highlight">Cyber Bao</h1>
+          <h1 class="topic">Η ιστορία μας</h1>
+          <p class="symbol">&#10059;</p>
+          <p>
+            Τι είναι τελικά τα Bao Bun’s;
+		  </p>
+		  <p></p>
+Τα Bao Bun είναι αφράτα ψωμάκια, όπου μαγειρεύονται στον ατμό. Η καταγωγή τους είναι από την Κίνα. Τα Bao Bun γεμίζονται με κάθε λογής υλικά όπως κρέας, λαχανικά, θαλασσινά και σάλτσες,
+Τα δικά μας Bao Bun είναι χειροποίητα κάτι που τα καθιστά ξεχωριστά. Παρασκευάζονται καθημερινά από προσεγμένες πρώτες ύλες, αγνά υλικά χωρίς βελτιωτικά γεύσεων και λευκαντικά αλεύρων.
+Η επεξεργασία των πρώτων υλών μας γίνεται αποκλειστικά από εμάς, λαμβάνοντας όλα τα απαραίτητα υγειονομικά μέτρα. Για την διασφάλιση και την υψηλή ποιότητα του τελικού προϊόντος μας, ο έλεγχος γίνεται από ειδικό τέκνολόγο τροφίμων.          </p>
+          <!-- <h2><a href="#"> About us </a></h2> -->
+        </div>
+        <div class="img_container">
+          <img src="./assets/img/our_story.jpg" title="Our Cyber Baos" alt="Cyber Baos Collection" />
+        </div>
+      </section>
+
+      <section class="divider">
+        <h1 class="highlight">Γευστικές</h1>
+        <h1 class="topic">επιλογές</h1>
+      </section>
+
+      <section id="menu" class="breakpoint">
+        <div class="img_container">
+          <img class="align_end" src="./assets/img/menu1.jpg" title="CCC Bao" alt="CCC Bao image" />
+          <img class="align_end" src="./assets/img/menu2.jpg" title="Wakame Shrimp Bao" alt="Wakame Shrimp Bao image" />
+          <img class="align_start" src="./assets/img/menu3.jpg" title="Vegan Bao" alt="Vegan Bao image" />
+          <img class="align_start" src="./assets/img/menu4.jpg" title="Old School Bao" alt="Old School Bao image" />
+        </div>
+        <div class="content">
+          <h1 class="highlight_flavor">Ανακαλύψτε</h1>
+		  <br/>
+          <h1 class="topic">τις γεύσεις μας</h1>
+          <p class="symbol">&#10059;</p>
+          <p>Το καλύτερο street food της πόλης</p>
+		  <p>είναι στο 𝐂𝐲𝐛𝐞𝐫 𝐁𝐚𝐨 & σε περιμένει!</p>
+          <p>Μια δοκιμή θα σε πείσει! 😉</p>
+          <p>📍Λ. Σοφοκλή Βενιζέλου 68, Ηλιούπολη</p>
+          <p>📲 Delivery by: Wolt & efood</p>
+          <h2><a href="./assets/Cyber-Bao-Catalogue.pdf"> ΔΕΙΤΕ ΟΛΟΚΛΗΡΟ ΤΟ ΜΕΝΟΥ </a></h2>
+        </div>
+      </section>
+
+      <!-- <section class="divider">
+        <h1 class="highlight">The perfect</h1>
+        <h1 class="topic">blend</h1>
+      </section>
+
+      <section id="reservation" class="breakpoint">
+        <div class="content">
+          <h1 class="highlight">Culinary</h1>
+          <h1 class="topic">delight</h1>
+          <p class="symbol">&#10059;</p>
+          <p>
+            Vestibulum mollis tempus eros eu egestas. Vivamus congue lacus non sem eleifend vestibulum. Morbi pulvinar ligula vitae ornare faucibus. Nulla
+            facilisi.
+          </p>
+          <h2><a href="#"> Make a reservation </a></h2>
+        </div>
+        <div class="img_container">
+          <img src="./assets/img/meat.jpg" title="Meat and cheese" alt="Sandwiches image" />
+          <img src="./assets/img/sandwiches.jpg" title="Sandwiches" alt="Sandwiches image" />
+        </div>
+      </section> -->
+    </main>
+
+    <footer>
+      <div id="top">
+        <a href="#go_to_top" class="menu_link">
+          <p id="arrow">&lsaquo;</p>
+          <p>Top</p>
+        </a>
+      </div>
+      <div id="info" class="breakpoint">
+		<div id="locations">
+			<h2>ΤΗΛΕΦΩΝΟ</h2>
+			<div class="address_container">
+			  <div class="telephone1">
+				<p><a href="tel:2109966900">📲   2109966900</a></p>
+			  </div>
+			</div>
+		  </div>
+        <div id="locations">
+          <h2>ΔΙΕΥΘΥΝΣΗ</h2>
+          <div class="address_container">
+            <div class="address1">
+              <p><a href="https://goo.gl/maps/bg999fR2tAwjzP3k6">Λεωφ. Σοφοκλή Βενιζέλου 68,</a></p>
+			  <p><a href="https://goo.gl/maps/bg999fR2tAwjzP3k6">Ηλιούπολη 163 41</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div id="hours">
+          <h2>ΩΡΑΙΡΙΟ ΛΕΙΤΟΥΡΓΙΑΣ</h2>
+          <div class="open_container">
+            <div class="open">
+              <p>Δευτέρα - Σάββατο</p>
+              <p>5:30μ.μ. - 12.30 π.μ.</p>
+            </div>
+            <div class="open">
+              <p>Κυριακή</p>
+              <p>5:30μ.μ. - 12.30 π.μ.</p>
+            </div>
+            <div class="open">
+              <p>Delivery μέσω:</p>
+              <p ><a class="highlight_delivery" href="https://www.e-food.gr/delivery/ilioypoli/cyber-bao"><h1 >e-food</h1></a></p>
+			  <p ><a class="highlight_delivery" href="https://wolt.com/el/grc/athens/restaurant/cyber-bao"><h1 >Wolt</h1></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright_container">
+        <div id="copyright">
+          <div>
+            <p>Copyright 2022 &copy;
+            <p>Coded by Nick Titomichelakis &copy;</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/js/scripts.js"></script>
+  </body>
 </html>
