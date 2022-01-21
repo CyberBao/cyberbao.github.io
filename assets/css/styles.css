@@ -11,7 +11,7 @@ p {
 header {
   height: 100vh;
   position: relative;
-  background: #0e131c url("../img/back-cover.jpg") no-repeat center center fixed;
+  background: #0e131c url("../img/back-cover.png") no-repeat center;
   background-size: cover;
 }
 
